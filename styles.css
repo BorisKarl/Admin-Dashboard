@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 0.5fr 4fr;
+  grid-template-rows: 1fr;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  margin-left: 50px;
+  font-size: 2em;
+  
+}
+
+img {
+  color: #fafafa;
+  background: #fafafa;
+}
+
+.sidebar {
+    display: grid;
+    grid-row:  1 / 8;
+    grid-column: 1 / 2;
+    color: white;
+    background-color: lightseagreen;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1.5fr 1fr 1fr;
+    gap: 25px;
+    padding-right: 20px;
+  
+}
+
+li {
+  font-size: 1.5em;
+}
+
+.nav1 {
+    display: grid;
+    
+}
+
+.nav1 > ul  {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.nav2  {
+  display: grid;
+}
+
+.nav2 > ul  {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 50px;
+  gap: 10px;
+}
+
+.main-area {
+  display: grid;
+} 
+
+.searchbar {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column: 2 / 6;
+  grid-row: 1/2;
+}
+
+.welcome-board {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 0.5fr;
+}
+
+.searchbar {
+  display: flex;
+  grid-column: 1/2;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  border-radius: 25px;
+  width: 50em;
+  height: 2em;
+  background-color: rgb(243, 240, 240);
+}
+
+.welcome-panel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.7em;
+  box-shadow: burlywood 2px;
+  padding-bottom: 30px;
+}
+.welcome-panel > img {
+  width: 70px;
+}
+
+.greeting > p {
+  font-size: 0.7em;
+  text-align: left;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: lightseagreen;
+  color: #fafafa;
+  border: none;
+}
+
+button:hover {
+  color: darkcyan;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-row: repeat(3, 1fr);
+  background-color: blanchedalmond;
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px 1fr 1fr 1fr;
+}
+
+.project-header {
+  margin-left: 15px;
+  margin-top: 15px;
+  grid-column: 1/3;
+  grid-row: 1;
+  text-align: left;
+}
+
+.card {
+  box-shadow: 0 0 6px black;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+  background: #fafafa;
+  transition: 0.3s;
+  margin: 15px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 1fr 30px;
+  border-left: 10px solid #f0b0b0;
+
+}
+
+.card-text:hover {
+  opacity: 0.7;
+}
+
+.card-header {
+  display: grid;
+  grid-row: 1;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  text-align: left;
+}
+.card-text {
+  text-align: left;
+  display: grid;
+  grid-row: 2/3;
+}
+
+.img-container {
+  grid-row: 4;
+  gap: 40px;
+  display: flex;
+  justify-content: flex-end;
+  height: fit-content;
+}
+
+
+.img-container > img {
+  width: 30px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.img-container > img:hover {
+  opacity: 1;
+}
+
+.card > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.card > article {
+  color: darkgrey;
+  text-align: left;
+}
+
+.anon-header {
+margin-top: 20px;
+margin-right: 100px;  
+}
+
+.anon-container {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+.anouncments-card {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  box-shadow: 0 0 6px black;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+  background: #fafafa;
+  margin: 40px;
+  height: min-content;
+  border-radius: 15px;
+  width: 300px;
+  gap: 10px;
+}
+
+.card_small {
+  display: grid;
+  gap: 15px;
+}
+
+.card_small > .title {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.card_small > p {
+  font-size: 0.9em;
+} 
+
+.anouncement {
+  
+  border-bottom: 1px solid black;
+}
+
+.trending-header {
+  margin-right: 200px;
+}
+
+.trending-card {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  box-shadow: 0 0 6px black;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+  background: #fafafa;
+  margin: 40px;
+  height: min-content;
+  border-radius: 15px;
+  width: 300px;
+  gap: 30px;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
