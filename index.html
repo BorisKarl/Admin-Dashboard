@@ -4,55 +4,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-<!--Get your own code at fontawesome.com-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <title>Admin-Dashboard</title>
 </head>
-<body>
+  <body>
     <div class="main-container">
-<div class="sidebar">
-    <i class="fas fa-expand-arrows-alt"></i>
-<div class="header">
-Dashboard
-</div>
-    <nav class="nav1">
-<ul>
-<li>
-    Home
-</li>
-<li>Profile
-
-</li>
-<li>
-    Messages
-</li>
-<li>
-    Tasks
-</li>
-<li>
-    Comunities
-</li>
-</ul>
-    </nav>
-    <nav class="nav2">
-        <ul>
-            <li>Settings
-
+      <div class="sidebar">
+        <div class="header">
+<img src="icons/view-dashboard.png" alt="dashboard-img" class="dashboard__img">
+          Dashboard
+        </div>
+        <nav class="nav1">
+          <ul>
+            <li>
+              <i class="material-icons">home</i>Home
             </li>
             <li>
-                Support
+              <i class="material-icons">settings</i>Profile
             </li>
             <li>
-                Privacy
+              <i class="material-icons">message</i>Messages
             </li>
-        </ul>
-    </nav>
-</div>
+            <li>
+              <i class="material-icons">task</i>Tasks
+            </li>
+            <li>
+              <i class="material-icons">cloud</i>Comunities
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav2">
+          <ul>
+              <li>
+                  <i class="material-icons">settings</i>
+                  Settings
+              </li>
+              <li>
+                <i class="material-icons">settings</i>
+                  Support
+              </li>
+              <li>
+                <i class="material-icons">settings</i>
+                  Privacy
+              </li>
+          </ul>
+        </nav>
+      </div>
+    <div class="welcome-board">
+      <div class="searchbar">
+        <i class="material-icons">search</i>
+          <input type="text">
+        <i class="material-icons">alarm</i>
+          <img src="icons/4043244_avatar_cloud_crying_rain_icon.png" alt="pic" class="avatar__image">
+          <p>Boris Mesterjahn</p>
+      </div>
 
+      <div class="welcome-panel">
+          <img src="icons/4043244_avatar_cloud_crying_rain_icon (1).png" alt="pic">
+          <div class="greeting"><p>Willkommen,
+          <p>
+          <h3>Boris Mesterjahn (@mettenhof)</h3></div>
+          
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+      </div>
 
+      </div>
+          
+          <div class="project-container">
+                         
+            <div class="card-container">
+              <div class="project-header"><h2>Your Projects</h2></div>
+              
+              <div class="card">
+                <div class="cards-text">      
+                  <div class="card-header"><p class="title">Megacooles Projekt</p></div>
+                <article class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci elit, 
+                sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+                nisi ut aliquid ex ea commodi consequatur. 
+                </article>
+                </div>
+                <div class="img-container"><img src="icons/314405_add_note_icon.png" alt=""><img src="icons/430080_share_icon.png" alt="">
+                  <img src="icons/6590476_and_education_glasses_learning_reading_icon.png" alt=""></div>
+              
+              </div>
+              <div class="card">
+                <div class="cards-text">
+                  <div class="card-header">
+                    <p class="title">Cooles Projekt</p>
+                  </div>
+                  <article class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci elit,
+                    sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                    nisi ut aliquid ex ea commodi consequatur.
+                  </article>
+                </div>
+                <div class="img-container"><img src="icons/314405_add_note_icon.png" alt=""><img src="icons/430080_share_icon.png"
+                    alt="">
+                  <img src="icons/6590476_and_education_glasses_learning_reading_icon.png" alt="">
+                </div>
+              </div>
+              
+                <div class="card">
+                  <div class="cards-text">
+                    <div class="card-header">
+                      <p class="title">Megadurchschnittliches Projekt</p>
+                    </div>
+                    <article class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci elit,
+                      sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                      nisi ut aliquid ex ea commodi consequatur.
+                    </article>
+                  </div>
+                  <div class="img-container"><img src="icons/314405_add_note_icon.png" alt=""><img src="icons/430080_share_icon.png"
+                      alt="">
+                    <img src="icons/6590476_and_education_glasses_learning_reading_icon.png" alt="">
+                  </div>
+                
+                </div>
+                <div class="card">
+                  <div class="cards-text">
+                    <div class="card-header">
+                      <p class="title">Durchschnittliches Projekt</p>
+                    </div>
+                    <article class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci elit,
+                      sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                      nisi ut aliquid ex ea commodi consequatur.
+                    </article>
+                  </div>
+                  <div class="img-container"><img src="icons/314405_add_note_icon.png" alt=""><img src="icons/430080_share_icon.png"
+                      alt="">
+                    <img src="icons/6590476_and_education_glasses_learning_reading_icon.png" alt="">
+                  </div>
+                
+                </div>
+              <div class="card">
+                <div class="cards-text">
+                  <div class="card-header">
+                    <p class="title">Projekt</p>
+                  </div>
+                  <article class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci elit,
+                    sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                    nisi ut aliquid ex ea commodi consequatur.
+                  </article>
+                </div>
+                <div class="img-container"><img src="icons/314405_add_note_icon.png" alt=""><img src="icons/430080_share_icon.png"
+                    alt="">
+                  <img src="icons/6590476_and_education_glasses_learning_reading_icon.png" alt="">
+                </div>
+              
+              </div>
+                <div class="card">
+                  <div class="card-text">
+                    <div class="card-header">
+                    <p class="title">Schlechtes Projekt</p>
+                  </div>
+                  <article class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci elit,
+                    sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                    nisi ut aliquid ex ea commodi consequatur.
+                  </article>
+                </div> 
+                  <div class="img-container"><img src="icons/314405_add_note_icon.png" alt=""><img src="icons/430080_share_icon.png"
+                      alt="">
+                    <img src="icons/6590476_and_education_glasses_learning_reading_icon.png" alt="">
+                  </div>
+                
+                </div>
+            </div>
 
+             
+            <div class="anon-container">
+              <div class="anon-header">
+                <h2>Announcments</h2>
+              </div>
+               <div class="anouncments-card">
+                
+                   <div class="card_small"><p class="title">Giveaway</p>
+                <p class="anouncement">Die besten Giveaways, jetzt hier auf dem Dashboard! Teilt den link und bekommt einen Gutschein für cd4you!
+                </p></div>
+                   <div class="card_small"><p class="title">Newsflash</p>
+                <p class="anouncement">Immer gut informiert mit der app vom Kreflader Tageblatt! Bring das Land auf dein Screen und swipe nache Hause! <br>
+                </p></div>
+                   <div class="card_small"><p class="title">Staumelder</p>
+                <p>An welcher Kasse ist grade Stau und wo geht es besonders schnell? hier erfährst du es am schnellsten!"</p></div>
+                </div>
 
-    </div>
-    
-</body>
+               <div class="trending-header"><h2>Trending</h2></div>
+
+               <div class="trending-card">
+                  <div class="user">
+                      <img src="icons/379357_woman_icon.png" alt="women" class="user__img">
+                      <div class="text"><h4>@Sandra</h4>
+                    <p>strong handshake</p></div>
+                   
+                  </div>
+                <div class="user">
+                    <img src="icons/4043265_male_man_old_portrait_icon.png" alt="kalle" class="user__img">
+                    <p><strong>@Kalle</strong><br>strong smell</p>
+                </div>
+                <div class="user">
+                    <img src="icons/628283_avatar_grandfather_male_man_mature_icon.png" alt="gerd" class="user__img">
+                    <p><strong>@Gerd</strong><br>strong wisdom</p>
+                </div>
+                <div class="user">
+                    <img src="icons/631537_girl_hero_saver_super_superhero_icon.png" alt="superhero" class="user__img">
+                    <p><strong>@Annet</strong><br>strong hindsight</p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>       
+  </body>
 </html>
